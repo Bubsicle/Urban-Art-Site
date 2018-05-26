@@ -1,0 +1,54 @@
+//Variables
+//Colours
+$rustyRed: #DB2B39;
+$halayaUba: #63384C;
+$purpleTaupe: #493D55;
+$nickel: #726472;
+$eerieBlack: #0F132D;
+
+//Fonts
+$bungee: 'Bungee', cursive;
+$bungeeShade: 'Bungee Shade', cursive;
+$bioRhyme: 'BioRhyme', serif;
+$fruktur: 'Fruktur', cursive;
+$ewert: 'Ewert', cursive;
+$gravitasOne: 'Gravitas One', cursive;
+$monoton: 'Monoton', cursive;
+$blackOps: 'Black Ops One', cursive;
+$creepster: 'Creepster', cursive;
+$rubik: 'Rubik', sans-serif;
+
+html {font-size: 1.25em;}
+body{
+  font-family: $rubik;
+  background-color: $purpleTaupe;
+  color: white;
+}
+
+// Navbar
+nav {
+  font-family: $fruktur;
+  font-size: 1.25em;
+}
+
+//main
+.content h1 {
+  font-family: $bungeeShade;
+}
+
+p {
+  font-family: $bioRhyme;
+}
+
+.media {
+  font-size: 1.25em;
+  font-family: $bioRhyme;
+  & img {
+    width: 350px;
+    border: 4px solid $eerieBlack;
+    border-radius: 20px;
+  }
+  & h5 {
+    font-family: $gravitasOne;
+  }
+}

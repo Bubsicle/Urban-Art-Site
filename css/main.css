@@ -1,0 +1,29 @@
+html {
+  font-size: 1.25em; }
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #493D55;
+  color: white; }
+
+nav {
+  font-family: "Fruktur", cursive;
+  font-size: 1.25em; }
+
+.content h1 {
+  font-family: "Bungee Shade", cursive; }
+
+p {
+  font-family: "BioRhyme", serif; }
+
+.media {
+  font-size: 1.25em;
+  font-family: "BioRhyme", serif; }
+  .media img {
+    width: 350px;
+    border: 4px solid #0F132D;
+    border-radius: 20px; }
+  .media h5 {
+    font-family: "Gravitas One", cursive; }
+
+/*# sourceMappingURL=main.css.map */
